@@ -1,0 +1,79 @@
+* {
+    padding:0;
+    text-align: center;
+    background-color:darkcyan;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid black;
+    width: 100%;
+    min-height: 40px;
+    margin-bottom: 2px;
+
+}
+
+header span {
+    margin-right: 5px;
+}
+
+.content {
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    min-height: 500px;
+
+}
+
+.blog-hero {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items:center;
+    border: 2px solid black;
+    width: 50%;
+}
+
+
+.blog-hero h1{
+    display: flex;
+    align-items:center;
+    bor
+}
+
+
+.blog-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    flex: 2;
+    border: 2px solid black;
+    margin-left: 10px;
+    width: 50%;
+}
+
+blog-form {
+    display: flex;
+    justify-content: flex-start;
+}
+
+button {
+  background-color: #001b44;
+  color: #fff;
+  cursor: pointer;
+  line-height: 4px;
+  max-width: 255px;
+  padding: 20px 52px;
+  text-align: center;
+  transition-duration: 0.15s;
+  transition-property: background-color;
+  transition-timing-function: linear;
+}
