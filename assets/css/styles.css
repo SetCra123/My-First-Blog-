@@ -1,9 +1,29 @@
 * {
     padding:0;
     text-align: center;
-    background-color:darkcyan;
     box-sizing: border-box;
 }
+
+
+
+/* Dark Mode */
+
+.dark {
+    background-color:darkcyan;
+}
+
+/*Light Mode */
+.light {
+    background-color:antiquewhite;
+}
+
+
+
+span:hover {
+    cursor: pointer;
+    /*<span style='font-size:100px;'>&#127769;</span>*/
+}
+
 
 li {
     list-style: none;

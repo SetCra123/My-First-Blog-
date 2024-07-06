@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="./assets/css/styles.css"/>
 </head>
 <body>
-  <main class="containter">
-   <header>
-    <span style='font-size:40px;'>&#127769;</span>
+  <main class="containter dark">
+   
+    <header>
+    <label><input type ="checkbox" id="theme-switcher">
+    <span  style='font-size:40px;'>&#127774;</span>
+    </label>   
    </header>
    
    <section class="content">
@@ -21,34 +24,36 @@
 
    <div class="blog-input">
     <h2>What's on your mind?</h2>
-     <form class="blog-form">
-      <ul>
-        
-        <li>
-         <label>Username:</label>
-         <input>
-        </li>
+     <form method="POST" class="blog-form">
+        <ul>
+         <li class="input-group">
+         <label for="username">Username:</label>
+         <input type="text" id="username">
+         </li>
       
-        <li>
-          <label>Title:</label>
-          <input>
-        </li>
+         <li class="input-group">
+          <label for="title">Title:</label>
+          <input type="text" name="title" id="title">
+         </li>
 
-        <li>
-          <label>Comment:</label>
-          <input>
+          <li class="input-group">
+          <label for="comment">Comment:</label>
+          <input type="text" name="comment" id="comment">
           </li>
      
-    </ul>
-    
-    <button id="submit">Submit</button>
+        </ul>
+        
+         <button id="submit">Submit</button>
     
      </form>
     </div>
   </section>
 
+</main>
 
 
-  </main>  
+  
+  <script src="./assets/js/logic.js"></script>
+  <script src="./assets/js/form.js"></script>
 </body>
 </html>
