@@ -11,14 +11,18 @@ const userComment = document.querySelector('#user-comment');
 //add even listener for click submit button
 submitButton.addEventListener('click', function (event) {
     
-    const username = userNameIn.value;
-    const title = titleIn.value;
-    const comment = comment.value.trim;
+    const blogPost = {
+        username: userNameIn.value,
+        title: titleIn.value,
+        comment: comment.value.trim,
+
+    };
+    
+
 
     
 //add blog post to local Storage
-    localStorage.setItem('username', JSON.stringify(username));
-    localStorage.setItem('title', JSON.stringify(title));
-    localStorage.setItem('comment', JSON.stringify(comment));
+    localStorage.setItem('blogPost', JSON.stringify(blogPost));
+    
 });
 

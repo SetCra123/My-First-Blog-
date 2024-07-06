@@ -44,6 +44,12 @@ header span {
     margin-right: 5px;
 }
 
+
+h1:hover {
+    cursor: pointer;
+}
+
+
 .content {
     display:flex;
     justify-content: center;
