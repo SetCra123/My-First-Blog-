@@ -1,7 +1,7 @@
 //Switch from dark theme to light theme
 //create variables to get access HTML elements
 const themeSwitcher = document.querySelector('#theme-switcher');
-const container = document.querySelectorAll('.container');
+const container = document.querySelector('.container');
 
 console.log(container);
 
@@ -11,6 +11,7 @@ let mode = 'dark';
 
 //create event listenter for a click 
 themeSwitcher.addEventListener('click', function (event) {
+    console.log("mode"+ mode);
     // If mode is dark, change to light
     if (mode === 'dark') {
       mode = 'light';

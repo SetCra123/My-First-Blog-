@@ -14,7 +14,7 @@ submitButton.addEventListener('click', function (event) {
     const blogPost = {
         username: userNameIn.value,
         title: titleIn.value,
-        comment: comment.value.trim,
+        comment: comment.value,
 
     };
     
@@ -26,3 +26,4 @@ submitButton.addEventListener('click', function (event) {
     
 });
 
+//create a funtion to grab information from local storage
