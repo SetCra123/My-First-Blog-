@@ -22,7 +22,12 @@ submitButton.addEventListener('click', function (event) {
 
     
 //add blog post to local Storage
-    localStorage.setItem('blogPost', JSON.stringify(blogPost));
+
+//creating a variable to store past blog posts
+const allBlogPosts = JSON.parse (localStorage.getItem('blogPost')) || []
+allBlogPosts.push(blogPost)
+
+localStorage.setItem('blogPost', JSON.stringify(allBlogPosts));
     
 });
 
