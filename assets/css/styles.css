@@ -10,13 +10,21 @@
 
 .dark {
     background-color:darkcyan;
+    
+
 }
 
 /*Light Mode */
 .light {
     background-color:antiquewhite;
 }
+.light .dark {
+    display: none;
+}
 
+.dark .light {
+    display: none;
+}
 
 
 span:hover {
