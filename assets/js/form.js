@@ -10,7 +10,8 @@ const userComment = document.querySelector('#user-comment');
 
 //add even listener for click submit button
 submitButton.addEventListener('click', function (event) {
-    
+    event.preventDefault();
+
     const blogPost = {
         username: userNameIn.value,
         title: titleIn.value,

@@ -21,6 +21,11 @@ blog-form {
 li {
     list-style: none;
     display: flex;
+    font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+
 }
 
 input {
