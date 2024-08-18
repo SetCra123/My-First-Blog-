@@ -1,0 +1,83 @@
+
+
+
+
+.blog-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    flex: 2;
+    border: 2px solid black;
+    margin-left: 10px;
+    width: 50%;
+}
+
+blog-form {
+    display: flex;
+    justify-content: flex-start;
+}
+
+li {
+    list-style: none;
+    display: flex;
+}
+
+input {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#username {
+    width: 400px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 25px;
+    margin-top: 10px;
+
+
+}
+
+
+#title {
+    width: 400px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 33px;
+    margin-top: 10px;
+
+
+}
+
+#comment {
+    width: 400px;
+    height: 90px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Include padding and border in the total size */
+}
+
+form-li {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+button {
+  background-color: #001b44;
+  color: #fff;
+  cursor: pointer;
+  line-height: 4px;
+  max-width: 255px;
+  padding: 20px 52px;
+  text-align: center;
+  transition-duration: 0.15s;
+  transition-property: background-color;
+  transition-timing-function: linear;
+}
