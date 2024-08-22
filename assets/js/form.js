@@ -28,7 +28,9 @@ allBlogPosts.push(blogPost)
 
 localStorage.setItem('blogPost', JSON.stringify(allBlogPosts));
 
-blogForm.reset();
+    userNameIn.value = '';
+    titleIn.value = '';
+    commentIn.value = '';
     
 });
 
